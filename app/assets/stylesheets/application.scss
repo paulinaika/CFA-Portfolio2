@@ -1,0 +1,124 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body,
+html {
+    height: 40em;
+}
+
+.navbar {
+    margin-bottom: auto;
+}
+
+.parallax-one {
+    /* The image used */
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/f/f1/Daytona_beach_sunrise.jpg');
+    /* Full height */
+    height: 50%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
+}
+
+.parallax-two {
+    /* The image used */
+    background-image: url('http://3.bp.blogspot.com/--diZThrn4BE/VGqO8Aaa1gI/AAAAAAAAAmY/lAClntDY-k8/s1600/bukit_teletubbies.jpg');
+    /* Full height */
+    height: 50%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
+}
+
+.parallax-three {
+    /* The image used */
+    background-image: url('http://www.melbournegraffiti.com/photos/pieces/Cliftonhill/images/IMG_3585_jpg.jpg');
+    /* Full height */
+    height: 50%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
+}
+
+.parallax-four {
+    /* The image used */
+    background-image: url('http://huguenotmuseum.org/wp-content/uploads/2015/03/contact-us1.jpg');
+    /* Full height */
+    height: 50%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+.container {
+    // padding-top: 5%;
+    // padding-bottom: 5%;
+    padding: 5%;
+}
+
+.upcased {
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
