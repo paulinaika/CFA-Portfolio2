@@ -21,104 +21,194 @@ html {
     height: 40em;
 }
 
-.navbar {
-    margin-bottom: auto;
+.headline{
+  color: #ef5285;
 }
 
-.parallax-one {
-    /* The image used */
-    background-image: url('https://upload.wikimedia.org/wikipedia/en/f/f1/Daytona_beach_sunrise.jpg');
-    /* Full height */
-    height: 50%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    /* align horizontal */
-    align-items: center;
-    /* align vertical */
+.headline-on-image{
+  color: white;
+  text-shadow: 1px 1px #a5dff9;
 }
 
-.parallax-two {
-    /* The image used */
-    background-image: url('http://3.bp.blogspot.com/--diZThrn4BE/VGqO8Aaa1gI/AAAAAAAAAmY/lAClntDY-k8/s1600/bukit_teletubbies.jpg');
-    /* Full height */
-    height: 50%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    /* align horizontal */
-    align-items: center;
-    /* align vertical */
+
+
+h1{
+  margin-top: 0;
+  margin-bottom: 1em;
 }
 
-.parallax-three {
-    /* The image used */
-    background-image: url('http://www.melbournegraffiti.com/photos/pieces/Cliftonhill/images/IMG_3585_jpg.jpg');
-    /* Full height */
-    height: 50%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    /* align horizontal */
-    align-items: center;
-    /* align vertical */
-}
-
-.parallax-four {
-    /* The image used */
-    background-image: url('http://huguenotmuseum.org/wp-content/uploads/2015/03/contact-us1.jpg');
-    /* Full height */
-    height: 50%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    /* align horizontal */
-    align-items: center;
-    /* align vertical */
-}
-
-h1 {
-    color: white;
+h2{
+  color: #60c5ba;
 }
 
 p {
     margin: 0;
 }
 
-.row {
-    margin-bottom: 0;
+
+
+
+.jumbotron{
+  text-align: right;
 }
 
-.container {
-    // padding-top: 5%;
-    // padding-bottom: 5%;
-    padding: 5%;
+.jumbotron h1 {
+  color: #ef5285;
+  // text-shadow: 3px 3px black;
 }
+
+.jumbotron p {
+  color: #60c5ba;
+  // text-shadow: 1px 1px black;
+}
+
+.navbar {
+    margin-bottom: auto;
+    background-color: transparent;
+    border-bottom: 0;
+    margin-bottom: -5em;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.jumbotron {
+  height: 110%;
+  margin-bottom: 0;
+  background-image: url(prt02.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.parallax {
+  /* Full height */
+  height: 50%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  /* align horizontal */
+  align-items: center;
+  /* align vertical */
+}
+
+
+
+#skills {
+  /* The image used */
+  background-image: url(prt01.JPG);
+}
+
+#portfolio{
+      /* The image used */
+      background-image: url(prt03.JPG);
+}
+
+#contact{
+      /* The image used */
+      background-image: url(prt06.JPG);
+}
+
+//
+// .parallax-one {
+//     /* The image used */
+//     background-image: url(prt03.JPG);
+//     /* Full height */
+//     height: 50%;
+//     /* Create the parallax scrolling effect */
+//     background-attachment: fixed;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     display: flex;
+//     justify-content: center;
+//     /* align horizontal */
+//     align-items: center;
+//     /* align vertical */
+// }
+//
+// .parallax-two {
+//     /* The image used */
+//     background-image: url(prt05.JPG);
+//     /* Full height */
+//     height: 50%;
+//     /* Create the parallax scrolling effect */
+//     background-attachment: fixed;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     display: flex;
+//     justify-content: center;
+//     /* align horizontal */
+//     align-items: center;
+//     /* align vertical */
+// }
+//
+// .parallax-three {
+//     /* The image used */
+//     background-image: url(prt06.JPG);
+//     /* Full height */
+//     height: 50%;
+//     /* Create the parallax scrolling effect */
+//     background-attachment: fixed;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     display: flex;
+//     justify-content: center;
+//     /* align horizontal */
+//     align-items: center;
+//     /* align vertical */
+// }
+//
+// .parallax-four {
+//     /* The image used */
+//     background-image: url('http://huguenotmuseum.org/wp-content/uploads/2015/03/contact-us1.jpg');
+//     /* Full height */
+//     height: 50%;
+//     /* Create the parallax scrolling effect */
+//     background-attachment: fixed;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     display: flex;
+//     justify-content: center;
+//     /* align horizontal */
+//     align-items: center;
+//     /* align vertical */
+// }
+//
+//
+
+.row {
+margin: 5em;
+}
+
+// .container {
+//     // padding-top: 5%;
+//     // padding-bottom: 5%;
+//     padding: 5%;
+// }
 
 .upcased {
     text-transform: uppercase;
 }
 
-.text-center {
-    text-align: center;
-}
 
-.text-justify {
-    text-align: justify;
+// .text-justify {
+//     text-align: justify;
+// }
+
+.thumbnail {
+  height: 15em;
+  margin: 2em;
 }
