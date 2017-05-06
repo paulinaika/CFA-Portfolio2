@@ -21,30 +21,34 @@ html {
     height: 40em;
 }
 
-.headline{
+.pink-text{
   color: #ef5285;
 }
 
-.headline-on-image{
+.white-text{
   color: white;
-  text-shadow: 1px 1px #a5dff9;
+}
+
+.shadow-text{
+  text-shadow: 1px 1px #feee7d;
+}
+
+.green-text{
+  color: #60c5ba;
 }
 
 
 
-h1{
+h1,
+h2 {
   margin-top: 0;
   margin-bottom: 1em;
 }
 
-h2{
-  color: #60c5ba;
-}
 
 p {
     margin: 0;
 }
-
 
 
 
@@ -62,19 +66,34 @@ p {
   // text-shadow: 1px 1px black;
 }
 
-.navbar {
-    margin-bottom: auto;
-    background-color: transparent;
-    border-bottom: 0;
-    margin-bottom: -5em;
-}
 
-.navbar-default .navbar-nav > li > a {
-  color: white;
-}
+
+// .navbar {
+//     // margin-bottom: auto;
+//     background-color: transparent;
+//     border-bottom: 0;
+//     margin-bottom: -5em;
+// }
+//
+// .navbar-default .navbar-nav > li > a {
+//   color: black;
+// }
+//
+// .navbar-collapse{
+//   height: 250px;
+//   padding-bottom: 15px;
+// }
+//
+//
+// .navbar-toggle {
+//       margin:10px 0;
+//       background: white;
+//       color: black;
+// }
 
 .jumbotron {
-  height: 110%;
+  height: 100vh;
+  width:100%;
   margin-bottom: 0;
   background-image: url(prt02.JPG);
   background-size: cover;
@@ -83,8 +102,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
+
 
 .parallax {
   /* Full height */
@@ -118,86 +137,21 @@ p {
       background-image: url(prt06.JPG);
 }
 
-//
-// .parallax-one {
-//     /* The image used */
-//     background-image: url(prt03.JPG);
-//     /* Full height */
-//     height: 50%;
-//     /* Create the parallax scrolling effect */
-//     background-attachment: fixed;
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     display: flex;
-//     justify-content: center;
-//     /* align horizontal */
-//     align-items: center;
-//     /* align vertical */
-// }
-//
-// .parallax-two {
-//     /* The image used */
-//     background-image: url(prt05.JPG);
-//     /* Full height */
-//     height: 50%;
-//     /* Create the parallax scrolling effect */
-//     background-attachment: fixed;
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     display: flex;
-//     justify-content: center;
-//     /* align horizontal */
-//     align-items: center;
-//     /* align vertical */
-// }
-//
-// .parallax-three {
-//     /* The image used */
-//     background-image: url(prt06.JPG);
-//     /* Full height */
-//     height: 50%;
-//     /* Create the parallax scrolling effect */
-//     background-attachment: fixed;
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     display: flex;
-//     justify-content: center;
-//     /* align horizontal */
-//     align-items: center;
-//     /* align vertical */
-// }
-//
-// .parallax-four {
-//     /* The image used */
-//     background-image: url('http://huguenotmuseum.org/wp-content/uploads/2015/03/contact-us1.jpg');
-//     /* Full height */
-//     height: 50%;
-//     /* Create the parallax scrolling effect */
-//     background-attachment: fixed;
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     display: flex;
-//     justify-content: center;
-//     /* align horizontal */
-//     align-items: center;
-//     /* align vertical */
-// }
-//
-//
-
-.row {
-margin: 5em;
-}
 
 // .container {
 //     // padding-top: 5%;
 //     // padding-bottom: 5%;
 //     padding: 5%;
 // }
+
+.margin {
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+.padding{
+  padding: 5%;
+}
 
 .upcased {
     text-transform: uppercase;
@@ -212,3 +166,52 @@ margin: 5em;
   height: 15em;
   margin: 2em;
 }
+
+@media(min-width:576px){
+  .container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+
+
+.navbar {
+      margin-bottom: 0;
+      background-color: #ef5285;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #ef5285 !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
