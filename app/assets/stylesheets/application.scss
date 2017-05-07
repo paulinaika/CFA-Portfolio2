@@ -47,29 +47,6 @@ html {
 }
 
 
-// .navbar {
-//     // margin-bottom: auto;
-//     background-color: transparent;
-//     border-bottom: 0;
-//     margin-bottom: -5em;
-// }
-//
-// .navbar-default .navbar-nav > li > a {
-//   color: black;
-// }
-//
-// .navbar-collapse{
-//   height: 250px;
-//   padding-bottom: 15px;
-// }
-//
-//
-// .navbar-toggle {
-//       margin:10px 0;
-//       background: white;
-//       color: black;
-// }
-
 .jumbotron {
   height: 100vh;
   min-height: 300px;
@@ -81,12 +58,14 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 0 !important;
 }
 
 
 .parallax {
   /* Full height */
   height: 50%;
+display: block;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -117,17 +96,6 @@ html {
 }
 
 
-// .container {
-//     // padding-top: 5%;
-//     // padding-bottom: 5%;
-//     padding: 5%;
-// }
-
-.margin {
-  margin-right: 1em;
-  margin-left: 1em;
-}
-
 .padding{
   padding: 5%;
 }
@@ -137,14 +105,7 @@ html {
 }
 
 
-// .text-justify {
-//     text-align: justify;
-// }
 
-.thumbnail {
-  height: 15em;
-  margin: 2em;
-}
 
 @media(max-width:768px){
   .jumbotron {
@@ -158,11 +119,6 @@ html {
       text-align: center;
     }
   }
-  // .well{
-  //   min-height: 210px !important;
-  //   max-height: 210px !important;
-  //   overflow: scroll;
-  // }
 }
 
 @media(min-width:576px){
@@ -222,4 +178,9 @@ html {
 .container-fluid{
   margin:0;
   padding:0;
+
+}
+
+.icon{
+  font-size: 3em;
 }
