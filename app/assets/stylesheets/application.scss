@@ -47,7 +47,6 @@ html {
 }
 
 
-
 // .navbar {
 //     // margin-bottom: auto;
 //     background-color: transparent;
@@ -159,7 +158,11 @@ html {
       text-align: center;
     }
   }
-
+  // .well{
+  //   min-height: 210px !important;
+  //   max-height: 210px !important;
+  //   overflow: scroll;
+  // }
 }
 
 @media(min-width:576px){
@@ -209,3 +212,9 @@ html {
       border-color: transparent;
       color: #fff !important;
   }
+
+// .well{
+//   min-height: 350px;
+//   max-height: 350px;
+//   overflow: scroll;
+// }
