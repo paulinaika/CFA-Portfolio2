@@ -38,32 +38,12 @@ html {
 }
 
 
-
-h1,
-h2 {
+.no-margin-top{
   margin-top: 0;
+}
+
+.margin-bottom{
   margin-bottom: 1em;
-}
-
-
-p {
-    margin: 0;
-}
-
-
-
-.jumbotron{
-  text-align: right;
-}
-
-.jumbotron h1 {
-  color: #ef5285;
-  // text-shadow: 3px 3px black;
-}
-
-.jumbotron p {
-  color: #60c5ba;
-  // text-shadow: 1px 1px black;
 }
 
 
@@ -93,7 +73,7 @@ p {
 
 .jumbotron {
   height: 100vh;
-  width:100%;
+  min-height: 300px;
   margin-bottom: 0;
   background-image: url(prt02.JPG);
   background-size: cover;
@@ -167,6 +147,21 @@ p {
   margin: 2em;
 }
 
+@media(max-width:768px){
+  .jumbotron {
+    h1{
+      text-shadow: 1px 1px white;
+      text-align: center;
+    }
+    p{
+      color: white;
+      text-shadow: 1px 1px black;
+      text-align: center;
+    }
+  }
+
+}
+
 @media(min-width:576px){
   .container {
     width: 90%;
@@ -177,7 +172,6 @@ p {
   .container {
     width: 90%;
   }
-
 }
 
 @media (min-width: 992px) {
