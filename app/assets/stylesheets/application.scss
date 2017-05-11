@@ -75,7 +75,22 @@ html {
 }
 
 
+.parallax {
+  /* Full height */
+  height: 50%;
+  display: block;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  /* align horizontal */
+  align-items: center;
+  /* align vertical */
 
+}
 
 
 
@@ -105,29 +120,8 @@ html {
 }
 
 
-// @media only screen and (max-width: 480px) {
-//   // .parallax {
-//   //   -webkit-overflow-scrolling: touch;
-//   // }
-// }
 
 @media(max-width:768px){
-  .parallax {
-    /* Full height */
-    height: 50%;
-  display: block;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    /* align horizontal */
-    align-items: center;
-    /* align vertical */
-  }
-
   .jumbotron {
     h1{
       text-shadow: 1px 1px white;
@@ -137,6 +131,31 @@ html {
       color: white;
       text-shadow: 1px 1px black;
       text-align: center;
+    }
+  }
+
+  #skills{
+    background-image: none;
+    background-color: #a5dff9;
+    }
+
+  #portfolio{
+    background-image: none;
+    background-color: #a5dff9;
+    }
+
+  #contact{
+    background-image: none;
+    background-color: #a5dff9;
+    }
+
+  .shadow-text{
+    text-shadow: 1px 1px white;
+  }
+
+  .parallax{
+    h1{
+      color: #ef5285;
     }
   }
 }
