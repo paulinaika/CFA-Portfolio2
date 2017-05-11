@@ -22,10 +22,6 @@ html {
   color: #60c5ba;
 }
 
-.blue-text{
-  color: #a5dff9;
-}
-
 .no-margin-top{
   margin-top: 0;
 }
@@ -203,28 +199,17 @@ display: block;
   font-size: 4em;
 }
 
-// .thumbnail{
-//   height: 28em;
-// }
 
 .thumbnail img{
   width: 100%;
   height: 15em;
   background-size: cover;
-  // overflow: hidden;
 }
 
 .footer{
   background-color: black;
   padding: 1em;
 }
-
-// .vcenter{
-//   justify-content: center;
-// align-items: center;
-// /* align vertical */
-// display: inline-block;
-// }
 
 .vertical-align {
     display: flex;
