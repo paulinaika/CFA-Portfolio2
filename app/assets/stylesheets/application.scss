@@ -119,7 +119,15 @@ display: block;
 }
 
 
-
+@media only screen and (max-width: 480px) {
+  .parallax {
+  -moz-background-size: auto;
+  -webkit-background-size: auto;
+  background-attachment: scroll;
+  background-position: top;
+  background-size: auto;
+  }
+}
 
 @media(max-width:768px){
   .jumbotron {
@@ -135,10 +143,16 @@ display: block;
   }
 }
 
+
+
+
 @media(min-width:576px){
   .container {
     width: 90%;
   }
+
+
+
 }
 
 @media (min-width: 768px) {
