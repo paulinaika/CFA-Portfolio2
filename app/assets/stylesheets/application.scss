@@ -38,6 +38,9 @@ html {
   margin-top: 20px;
 }
 
+.highlight{
+  color: #60c5ba;
+}
 
 // .margin-bottom{
 //   margin-bottom: 1em;
@@ -214,4 +217,16 @@ display: block;
 .footer{
   background-color: black;
   padding: 1em;
+}
+
+// .vcenter{
+//   justify-content: center;
+// align-items: center;
+// /* align vertical */
+// display: inline-block;
+// }
+
+.vertical-align {
+    display: flex;
+    align-items: center;
 }
