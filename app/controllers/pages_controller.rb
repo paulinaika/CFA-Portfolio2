@@ -29,7 +29,7 @@ class PagesController < ApplicationController
       {
         url:'https://res.cloudinary.com/dcbeoroxh/image/upload/v1494244934/projects/animalmatcher_oyydbl.png',
         title:'Pet Matcher',
-        description: 'This is part of a group project done at CFA on pet matcher terminal app made using Ruby.',
+        description: 'This is part of a group project on pet matcher terminal app made using Ruby.',
         source:'https://github.com/paulinaika/CFA-Pet-Matcher',
         icon:'fa fa-github'
       },
