@@ -146,6 +146,10 @@ display: block;
   .container {
     width: 90%;
   }
+  .vertical-align {
+      display: flex;
+      align-items: center;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -207,11 +211,6 @@ display: block;
 }
 
 .footer{
-  background-color: black;
+  background-color: #ef5285;
   padding: 1em;
-}
-
-.vertical-align {
-    display: flex;
-    align-items: center;
 }
