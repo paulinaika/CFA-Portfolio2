@@ -38,9 +38,14 @@ html {
   color: #60c5ba;
 }
 
-// .margin-bottom{
-//   margin-bottom: 1em;
-// }
+.btn-primary{
+  background-color: #60c5ba;
+  border: none;
+
+   &:hover{
+    background-color: #ef5285;
+  }
+}
 
 .imagecontainer{
   justify-content: center;
@@ -196,11 +201,19 @@ display: block;
 
 .source-icon{
   font-size: 3em;
+
+  & a:hover{
+    color: #ef5285;
+  }
 }
 
 
 .contact-icon{
   font-size: 4em;
+
+  & a:hover{
+    color: #ef5285;
+  }
 }
 
 
