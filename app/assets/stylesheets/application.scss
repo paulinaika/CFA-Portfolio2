@@ -1,9 +1,20 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+
 body,
 html {
     height: 40em;
+}
+
+h1{
+  font-family: 'Bungee', cursive;
+}
+
+
+p{
+  font-family: 'Roboto', sans-serif;
 }
 
 .pink-text{
@@ -14,9 +25,9 @@ html {
   color: white;
 }
 
-.shadow-text{
-  text-shadow: 1px 1px #feee7d;
-}
+// .shadow-text{
+//   text-shadow: 1px 1px #60c5ba;
+// }
 
 .green-text{
   color: #60c5ba;
