@@ -5,7 +5,7 @@ class PagesController < ApplicationController
       {
         url:'http://res.cloudinary.com/dcbeoroxh/image/upload/v1494247127/Screen_Shot_2017-05-08_at_10.38.00_PM_emduru.png',
         title:'Ticked',
-        description: 'A pokedex for ticks to study the distribution of ticks made using Ruby on Rails',
+        description: 'A pokedex for ticks to study its distribution made using Ruby on Rails',
         source:'https://github.com/paulinaika/CFA-Ticked',
         icon:'fa fa-github'
       },
@@ -37,7 +37,7 @@ class PagesController < ApplicationController
       {
         url:'https://res.cloudinary.com/dcbeoroxh/image/upload/v1501838760/Lashes/Screen_Shot_2017-08-04_at_7.10.47_pm.png',
         title:'Backend-Lashes',
-        description: 'Backend database for an inventory stock count made using MongoDB, Express.Js and Node.Js',
+        description: 'Backend database for an inventory count made using MongoDB, Express.Js and Node.Js',
         source:'https://github.com/paulinaika/CFA-Lash-Backend',
         icon:'fa fa-github'
       },
