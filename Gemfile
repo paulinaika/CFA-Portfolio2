@@ -1,10 +1,12 @@
 source 'https://rubygems.org'
+ruby "2.7.2"
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'nokogiri', '1.10.10'
 gem 'bootstrap-sass', '~> 3.3.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -48,7 +50,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '~> 1.3.11'
-  
+
 end
 
 group :production do
